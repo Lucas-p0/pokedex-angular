@@ -1,3 +1,15 @@
+@use'./app/variables.scss';
 @use'./app/reset.scss';
 @use'./app/rem-calc.scss';
 
+html {
+    font-family: 'Roboto', sans-serif;
+    background: var(--prinmary-color);
+}
+
+main {
+    max-width: rem-calc(600);
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 auto;
+}
