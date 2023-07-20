@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-poke-header',
+  selector: 'poke-header',
   templateUrl: './poke-header.component.html',
   styleUrls: ['./poke-header.component.scss']
 })
