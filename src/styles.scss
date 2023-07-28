@@ -2,9 +2,11 @@
 @import './config-scss/rem-calc.scss';
 @import './config-scss/variables.scss';
 
+
+
 html {
-	font-family: 'Roboto', sans-serif;
-	background: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    background: var(--primary-color);
 }
 
 main {
